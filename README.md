@@ -1,253 +1,189 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rodrigo Bina - Designer Multimídia</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Sidebar -->
-  <aside class="sidebar">
-    <div class="logo">R</div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </aside>
 
-  <!-- Hero -->
-  <header id="home" class="hero">
-    <div class="hero-content">
-      <img src="sua-foto.jpg" alt="Rodrigo Bina" class="perfil">
-      <div>
-        <h1>Olá, sou o<br><span>Rodrigo Bina</span><br>Designer Multimídia</h1>
-        <a href="#contato" class="btn">Solicitar Orçamento</a>
-        <div class="socials">
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - FolioOne Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FolioOne
+  * Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
+  * Updated: Aug 23 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <img src="assets/img/logo.webp" alt="">
+      <h1 class="sitename">FolioOne</h1> 
+    </a> -->
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
+
     </div>
   </header>
 
-  <!-- Missão -->
-  <section class="missao">
-    <h2>Nossa missão</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Design com resultado</h3>
-        <p>Crio soluções visuais pensadas para atrair atenção, gerar desejo e mover seu público à ação.</p>
-      </article>
-      <article class="card">
-        <h3>Nosso Propósito Central</h3>
-        <p>Elevar a experiência digital através de design estratégico que destaca sua marca.</p>
-      </article>
-      <article class="card">
-        <h3>Acompanhamento estratégico</h3>
-        <p>Trabalho lado a lado com você para ajustar e evoluir o design conforme o mercado.</p>
-      </article>
-    </div>
-  </section>
+  <main class="main">
 
-  <!-- Projetos -->
-  <section id="projetos" class="projetos">
-    <div class="projeto">
-      <img src="projeto1.jpg" alt="Projeto Cibersegurança">
-      <p>Implementação de soluções de cibersegurança para uma rede social.</p>
-    </div>
-    <div class="projeto">
-      <img src="projeto2.jpg" alt="App de recarga elétrica">
-      <p>1º aplicativo de recarga para carros elétricos.</p>
-    </div>
-    <div class="projeto">
-      <img src="projeto3.jpg" alt="Plataforma de moda ESG">
-      <p>Desenvolvimento de uma plataforma de vendas online para moda ESG.</p>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-  <!-- Premiações -->
-  <section class="premiacoes">
-    <h2>Premiações</h2>
-    <p>
-      Sou Rodrigo Bina, designer multimídia apaixonado por criar experiências visuais que conectam pessoas e marcas.
-      Transformo ideias em soluções estratégicas de design, combinando criatividade, atenção aos detalhes e foco em resultados.
-      Meu objetivo é ajudar marcas a se destacarem, conquistarem o público e atingirem seus objetivos de forma única e memorável.
-    </p>
-  </section>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-  <!-- Contato -->
-  <section id="contato" class="contato">
-    <h2>Se interessou?</h2>
-    <a href="mailto:seuemail@email.com" class="btn">Entre em contato</a>
-  </section>
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="hero-content">
+              <h1 data-aos="fade-up" data-aos-delay="200">Hello, I'm <span class="highlight">Brandon Johnson</span></h1>
+              <h2 data-aos="fade-up" data-aos-delay="300">Creative <span class="typed" data-typed-items="UI/UX Designer, Web Developer, Digital Artist, Brand Strategist"></span></h2>
+              <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
+                <a href="portfolio.html" class="btn btn-primary">View My Work</a>
+                <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+              </div>
+              <div class="social-links" data-aos="fade-up" data-aos-delay="600">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="#"><i class="bi bi-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
+              <div class="image-wrapper">
+                <img src="assets/img/profile/profile-square-11.webp" alt="Sarah Mitchell" class="img-fluid">
+                <div class="floating-elements">
+                  <div class="floating-card design" data-aos="fade-left" data-aos-delay="700">
+                    <i class="bi bi-palette"></i>
+                    <span>Design</span>
+                  </div>
+                  <div class="floating-card code" data-aos="fade-right" data-aos-delay="800">
+                    <i class="bi bi-code-slash"></i>
+                    <span>Code</span>
+                  </div>
+                  <div class="floating-card creativity" data-aos="fade-up" data-aos-delay="900">
+                    <i class="bi bi-lightbulb"></i>
+                    <span>Ideas</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <!-- Rodapé -->
-  <footer>
-    <div class="logo-footer">spiral tech.</div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Serviços</a>
-      <a href="#">Contato</a>
-    </nav>
-    <div class="socials">
-      <a href="#">LinkedIn</a>
-      <a href="#">Instagram</a>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">FolioOne</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
+
   </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", Arial, sans-serif;
-  background: #fdfdfd;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Sidebar */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 80px;
-  height: 100%;
-  background: #1a1a1a;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.sidebar .logo {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-.sidebar nav {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.sidebar nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: 0.3s;
-}
-
-.sidebar nav a:hover {
-  color: #19d3a0;
-}
-
-/* Hero */
-.hero {
-  margin-left: 80px;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #19d3a0, #0a9b8d);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 60px 20px;
-  color: white;
-}
-
-.hero-content {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: left;
-}
-
-.hero .perfil {
-  width: 220px;
-  border-radius: 20px;
-}
-
-.hero h1 {
-  font-size: 2rem;
-}
-
-.hero h1 span {
-  font-weight: bold;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  border-radius: 25px;
-  background: white;
-  color: #000;
-  font-weight: bold;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #eee;
-}
-
-/* Missão */
-.missao {
-  padding: 80px 20px;
-  background: #111;
-  color: white;
-  text-align: center;
-}
-
-.missao h2 {
-  margin-bottom: 40px;
-  font-size: 2rem;
-}
-
-.missao .cards {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.missao .card {
-  background: #1f1f1f;
-  padding: 30px;
-  border-radius: 15px;
-  flex: 1;
-  min-width: 250px;
-  max-width: 300px;
-}
-
-/* Projetos */
-.projetos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 80px 20px;
-  background: #00a886;
-  color: white;
-}
-
-.projeto img {
-  width: 100%;
-  border-radius: 15px;
-  margin-bottom: 15px;
-}
-
-/* Premiações */
-.premiacoes {
-  padding: 80px 20px;
-  background: #00a886;
-  color: white;
-  text-align: center;
-  max-width: 800px;
